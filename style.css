@@ -1,0 +1,437 @@
+body
+{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logo
+{
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    padding: 0;
+}
+.imageLogo
+{
+    width: 100%;
+    height: 100%;
+}
+.list
+ {
+     padding: 0;
+     margin-top: 0;
+ }
+.navBar
+{
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 20px !important;
+    text-align: center;
+}
+.navBar ul a
+{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content
+{
+    width: 100%;
+    height: 500px;
+    background-image: url(images/Bg.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.BarHeade
+{
+    background-color: white;
+    opacity: 70%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.title
+{
+    padding: 50px;
+    font-size: 35px;
+    color: rgb(41, 40, 40);
+    text-align: center;
+}
+.container
+{
+    width: 70%;
+    margin: 0 auto;
+}
+.p2
+{
+    background-color: #446474;
+    color: white;
+}
+.titleP2
+{
+    padding-top: 35px;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
+.container > p
+{
+    font-size: 18px;
+    text-align: center;
+}
+.box
+{
+    width: 60%;
+    float: left;
+    position: relative;
+}
+.box1
+{
+    margin-bottom: 120px;
+}
+.box2
+{
+    margin-bottom: 50px;
+}
+.link
+{
+    cursor: pointer;
+    color: white;
+}
+.photo
+{
+    width: 160px;
+    height: 160px;
+}
+.photo > img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.cont
+{
+    position: absolute;
+    top: 100px;
+    left: 165px;
+}
+.partiner
+{
+    width: 35%;
+    float: left;
+    position: relative;
+}
+.blackStone
+{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    bottom: -140px;
+}
+.img1
+{
+    float: left;
+    padding: 2px;
+}
+.img2
+{
+    position: absolute;
+    bottom: -140px;
+    cursor: pointer;
+}
+.img3
+{
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+.clear
+{
+    clear: both;
+}
+.btnC
+{
+    width: 100%;
+    text-align: center;
+}
+.fisrtBtn
+{
+    margin-bottom: 50px;
+}
+.btn
+{
+    width: 170px;
+    height: 50px;
+    border: 1.5px solid white;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+.btn:hover
+{
+    background-color: white;
+    color: #446474;
+    cursor: pointer!important;
+}
+.titleP3
+{
+    text-align: center;
+    color: #446474;
+    font-size: 35px;
+    position: relative;
+}
+.titleP3::before
+{
+    position: absolute;
+    bottom: -20px;
+    text-align: center;
+    content: "";
+    width: 400px;
+    border-bottom: 3px solid #446474;
+    border-radius: 10px;
+}
+.Tip
+{
+    text-align: center;
+    color: #1f3038;
+    margin: 30px;
+    padding: 20px;
+}
+.cart
+{
+    background: #446474;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.leftCart
+{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.imageToCart
+{
+    width: 100%;
+    height: 100%;
+}
+.rightCart
+{
+    width: 40%;
+    float: left;
+    color: white;
+    padding: 20px;
+
+}
+.carteTitel
+{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.Pargh
+{
+    margin-bottom: 70px;
+}
+.btnCarte
+{
+    margin-left: 20px;
+}
+.finalPart
+{
+    background-color: #446474;
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+.ContactBox
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background-color: white;
+    color: black;
+    width: 90%;
+    height: 600px;
+}
+.leftBox
+{
+    width: 40%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    text-align: center;
+}
+.titelLeftBox
+{
+    font-size: 35px;
+}
+.inputContact
+{
+    padding: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.inputContact:focus
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid blue;
+}
+.input1
+{
+    float: left;
+    width: 40%;
+}
+.input2
+{
+    float: right;
+    width: 40%;
+}
+.input3 , .AreaText
+{
+    float: left;
+    width: 100%;
+}
+.AreaText
+{
+    height: 200px;
+}
+.btnSend
+{
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    opacity: .7;
+    margin-top: 20px;
+}
+.rightBox
+{
+    width: 49%;
+    height: 100%;
+    float: right;
+}
+.imageRightBox
+{
+    width: 100%;
+    height: 100%;
+}
+.footer
+{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(17, 17, 17);
+    text-align: center;
+}
+.textInFooter
+{
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 15px;
+}
+.links
+{
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+} 
+/* Version Mobel */
+@media (min-width: 1050px ) and (max-width: 1200px)
+{
+    .btn
+    {
+        width: 150px;
+    }
+}
+@media (max-width: 1050px)
+{
+    .list
+    {
+        display: none;
+    }
+    .content
+    {
+        width: 95%;
+        margin: 20px auto;
+    }
+    .box
+    {
+        width: 100%;
+        position: relative;
+    }
+    .box2
+    {
+       margin-bottom: 60px;
+    }
+    .partiner
+    {
+        display: none;
+    }
+    .link
+    {
+        font-size: 10px;
+    }
+    .cart
+    {
+        background: white;
+    }
+    .leftCart
+    {
+        width: 100%;
+        height: 400px !important;
+        margin-bottom: 20px;
+    }
+    .rightCart
+    {
+        text-align: center;
+        background-color: #446474;
+        width: 100%;
+        height: 150px;
+        margin-bottom: 40px;
+    }
+    .carteTitel
+    {
+        display: none;
+    }
+    .Pargh
+    {
+        margin-bottom: 5px;
+    }
+    .btnCarte
+    {
+        margin-left: 20px;
+    }
+    .btn
+    {
+        margin-bottom: 10px;
+    }
+    .finalPart
+    {
+        display: none;
+    }
+}
+@media (max-width: 550px)
+{
+    .rightCart
+    {
+        height: 250px;
+    }
+}
